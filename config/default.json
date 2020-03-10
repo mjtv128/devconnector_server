@@ -1,0 +1,6 @@
+//config= create global values in our app
+//have default json file for our mongodb string mongoURI
+
+{
+    "mongoURI": "mongodb+srv://mich:mich123@devconnector-xc3me.mongodb.net/test?retryWrites=true&w=majority"
+}
