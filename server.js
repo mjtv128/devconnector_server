@@ -6,6 +6,9 @@ const app = express()
 connectDB()
 const PORT = process.env.PORT || 3000
 
+//Init Middleware
+app.use(express.json({ extended: false })) //allows us to get data in req.body
+
 app.get('/', (req, res) => {
     res.send("API RUNNING")
 })
